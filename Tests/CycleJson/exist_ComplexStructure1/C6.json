@@ -1,0 +1,7 @@
+{
+    "name": "prefix/C6",
+    "require": {
+        "prefix/C5": "v",
+        "prefix/C3": "v"
+    }
+}

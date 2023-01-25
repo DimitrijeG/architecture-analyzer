@@ -1,0 +1,171 @@
+----------------------
+
+Name: transaction-currency-convert-message (I 1)
+Dependents: 
+Dependencies: 
+	- abstract-currency-converter-job (I 0.67)
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: payment-currency-convert-message (I 1)
+Dependents: 
+Dependencies: 
+	- abstract-currency-converter-job (I 0.67)
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: dispute-events-contracts-library (I 1)
+Dependents: 
+Dependencies: 
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: transact-resp-codes-entities (I 1)
+Dependents: 
+Dependencies: 
+	- global-types (I 0)
+
+----------------------
+
+Name: payment-finder-service-by-external-locator-contract-library (I 1)
+Dependents: 
+Dependencies: 
+	- transactions-external-identification-attributes-contracts-library (I 0)
+
+----------------------
+
+Name: dispute-webhook-process-message (I 1)
+Dependents: 
+Dependencies: 
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: http-client (I 1)
+Dependents: 
+Dependencies: 
+	- app-base-library (I 0)
+
+----------------------
+
+Name: logging-library (I 1)
+Dependents: 
+Dependencies: 
+	- app-base-library (I 0)
+
+----------------------
+
+Name: light-http-server (I 1)
+Dependents: 
+Dependencies: 
+	- use-cases-boundary-general-library (I 0.5)
+	- auth-compoment (I 0)
+	- app-base-library (I 0)
+
+----------------------
+
+Name: abstract-currency-converter-job (I 0.67)
+Dependents: 
+	- transaction-currency-convert-message (I 1) v^2.0
+	- payment-currency-convert-message (I 1) v^v2.0
+Dependencies: 
+	- async-worker-library (I 0.33)
+	- async-worker-library (I 0.33)
+	- async-messaging-library (I 0)
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: use-cases-boundary-general-library (I 0.5)
+Dependents: 
+	- light-http-server (I 1) v^2.0
+Dependencies: 
+	- validation-library (I 0)
+
+----------------------
+
+Name: async-worker-library (I 0.33)
+Dependents: 
+	- abstract-currency-converter-job (I 0.67) v^3.0
+	- abstract-currency-converter-job (I 0.67) v^3.0
+Dependencies: 
+	- async-messaging-library (I 0)
+
+----------------------
+
+Name: async-messaging-library (I 0)
+Dependents: 
+	- transaction-currency-convert-message (I 1) v^3.5
+	- payment-currency-convert-message (I 1) v^3.5
+	- dispute-events-contracts-library (I 1) v^3.5
+	- dispute-webhook-process-message (I 1) v^3.0
+	- abstract-currency-converter-job (I 0.67) v^3.5
+	- abstract-currency-converter-job (I 0.67) v^3.5
+	- async-worker-library (I 0.33) v^3.0
+Dependencies: 
+
+----------------------
+
+Name: global-types (I 0)
+Dependents: 
+	- transact-resp-codes-entities (I 1) v^2.0
+Dependencies: 
+
+----------------------
+
+Name: transactions-external-identification-attributes-contracts-library (I 0)
+Dependents: 
+	- payment-finder-service-by-external-locator-contract-library (I 1) v^1.0
+Dependencies: 
+
+----------------------
+
+Name: validation-library (I 0)
+Dependents: 
+	- use-cases-boundary-general-library (I 0.5) v^1.0
+Dependencies: 
+
+----------------------
+
+Name: app-base-library (I 0)
+Dependents: 
+	- http-client (I 1) v^1.0
+	- logging-library (I 1) v^1.0
+	- light-http-server (I 1) v^1.0
+Dependencies: 
+
+----------------------
+
+Name: auth-compoment (I 0)
+Dependents: 
+	- light-http-server (I 1) v^1.0
+Dependencies: 
+
+----------------------
+
+Name: transactions-constants-library (I NaN)
+Dependents: 
+Dependencies: 
+
+----------------------
+
+Name: laravel/laravel (I NaN)
+Dependents: 
+Dependencies: 
+
+----------------------
+
+Name: utils (I NaN)
+Dependents: 
+Dependencies: 
+
+----------------------
+
+Name: db-client (I NaN)
+Dependents: 
+Dependencies: 
+
+----------------------

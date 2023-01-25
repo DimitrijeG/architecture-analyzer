@@ -1,0 +1,3 @@
+Total number of components: 22
+Total number of relations: 19
+Number of detected cycles: 0

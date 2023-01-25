@@ -1,0 +1,53 @@
+----------------------
+
+Name: C1 (I 1)
+Dependents: 
+Dependencies: 
+	- C2 (I 0.75)
+	- C3 (I 0.33)
+
+----------------------
+
+Name: C2 (I 0.75)
+Dependents: 
+	- C1 (I 1) v5
+Dependencies: 
+	- C3 (I 0.33)
+	- C4 (I 0.33)
+	- C5 (I 0.33)
+
+----------------------
+
+Name: C3 (I 0.33)
+Dependents: 
+	- C1 (I 1) v6.5
+	- C2 (I 0.75) v6.5
+Dependencies: 
+	- C4 (I 0.33)
+
+----------------------
+
+Name: C4 (I 0.33)
+Dependents: 
+	- C2 (I 0.75) v2.5
+	- C3 (I 0.33) v7.2
+Dependencies: 
+	- C5 (I 0.33)
+
+----------------------
+
+Name: C5 (I 0.33)
+Dependents: 
+	- C2 (I 0.75) v6.3
+	- C4 (I 0.33) v1
+Dependencies: 
+	- C6 (I 0)
+
+----------------------
+
+Name: C6 (I 0)
+Dependents: 
+	- C5 (I 0.33) v5
+Dependencies: 
+
+----------------------
